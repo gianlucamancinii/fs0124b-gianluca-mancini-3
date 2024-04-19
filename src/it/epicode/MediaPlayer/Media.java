@@ -1,18 +1,18 @@
 package it.epicode.MediaPlayer;
 
-public abstract class Media{
+// Definizione della classe astratta Media
+public abstract class Media {
 
+    // Attributo privato per memorizzare il titolo del media
     private String titolo;
 
-
+    // Metodo per ottenere il titolo del media
     public String getTitolo() {
-        return titolo;
+        return titolo; // Restituisce il titolo corrente del media
     }
 
+    // Metodo per impostare il titolo del media
     public void setTitolo(String titolo) {
-        this.titolo = titolo;
+        this.titolo = titolo; // Imposta il titolo del media con il valore fornito
     }
-
-
-
 }
